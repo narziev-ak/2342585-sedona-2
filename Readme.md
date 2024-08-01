@@ -1,8 +1,8 @@
 # Личный проект «Седона»
 
-* Студент: [Анвар Нарзиев](https://up.htmlacademy.ru/htmlcss-individual/2/user/2342585).
-* Наставник: `Неизвестно`.
-
+* Студент: [Анвар Нарзиев](https://up.htmlacademy.ru/htmlcss/39/user/2342585).
+* Наставник: [Дмитрий Осадченко](https://htmlacademy.ru/profile/dimaos).
+* Сайт: [Добавляет сайт своего проекта Седона](https://narziev-ak.github.io/2342585-sedona-39/).
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
@@ -18,7 +18,7 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`
 
 #### 2. Создайте копию
 
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/2342585-sedona-2) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
+[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/2342585-sedona-39) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
 
 <img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037949-67a635d6-7bae-11e7-9f2f-1a48fde231b9.jpg">
 
