@@ -2,7 +2,7 @@
 
 * Студент: [Анвар Нарзиев](https://up.htmlacademy.ru/htmlcss/39/user/2342585).
 * Наставник: [Дмитрий Осадченко](https://htmlacademy.ru/profile/dimaos).
-* Сайт: [Добавляет сайт своего проекта Седона](https://narziev-ak.github.io/2342585-sedona-39/).
+* Сайт: [Добавил ссылку на сайт своего проекта Седона-2](https://narziev-ak.github.io/2342585-sedona-2/).
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
