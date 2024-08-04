@@ -78,30 +78,31 @@
             </li>
           </ul>
         </fieldset>
-        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get"></form>
+        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
         <fieldset class="catalog-filter-group">
           <legend class="catalog-filter-title">Тип Жилья</legend>
           <ul class="catalog-filter-list">
             <li class="catalog-filter-item">
-              <label class="controls" for="pool3">
-                <input class="control-input" type="radio" name="pool" id="pool3" checked>
+              <label class="controls" for="housing1">
+                <input class="control-input" type="radio" name="housing" id="housing1" checked>
                 Гостиница
               </label>
             </li>
             <li class="catalog-filter-item">
-              <label class="controls" for="pool4">
-                <input class="control-input" type="radio" name="pool" id="pool4">
+              <label class="controls" for="housing2">
+                <input class="control-input" type="radio" name="housing" id="housing2">
                 Мотель
               </label>
             </li>
             <li class="catalog-filter-item">
-              <label class="controls" for="pool5">
-                <input class="control-input" type="radio" name="pool" id="pool5">
+              <label class="controls" for="housing3">
+                <input class="control-input" type="radio" name="housing" id="housing3">
                 Апартаменты
               </label>
             </li>
           </ul>
         </fieldset>
+        </form>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
         <fieldset class="catalog-filter-group">
           <legend class="catalog-filter-title">Стоимость, ₽</legend>
@@ -131,15 +132,23 @@
           <option value="cheap">Сначала популярные</option>
           <option value="expensive">Сначала дорогие</option>
         </select>
+        <ul class="catalog-view">
+        <li catalog-item>
         <a class="catalog-view catalog-view-selected" href="#">
           <span class="visually-hidden"> Плитками</span>
         </a>
+        </li>
+        <li class="catalog-item">
         <a class="catalog-view" href="#">
           <span class="visually-hidden"> По одной</span>
         </a>
+        </li>
+        <li class="catalog-item">
         <a class="catalog-view" href="#">
           <span class="visually-hidden"> Списком</span>
         </a>
+        </li>
+        </ul>
         <ul class="catalog-list">
           <li class="catalog-item">
           <a class="catalog-card-link" href="#" tabindex="-1">
