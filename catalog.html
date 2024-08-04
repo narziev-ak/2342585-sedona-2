@@ -54,49 +54,50 @@
       </header>
       <section class="filter-content">
         <h2 class="visually-hidden">Фильтр гостиниц</h2>
-        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get"></form>
+        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
         <fieldset class="catalog-filter-group">
           <legend class="catalog-filter-title">Инфраструктура</legend>
           <ul class="catalog-filter-list">
             <li class="catalog-filter-item">
               <label class="controls" for="pool">
-                <input class="control-input" type="checkbox" name="pool" id="pool" checked>
+                <input class="control-input" type="checkbox" name="features" id="pool" checked>
                 Бассейн
               </label>
             </li>
             <li class="catalog-filter-item">
-              <label class="controls" for="pool1">
-                <input class="control-input" type="checkbox" name="pool" id="pool1" checked>
+              <label class="controls" for="parking">
+                <input class="control-input" type="checkbox" name="features" id="parking" checked>
                 Парковка
               </label>
             </li>
             <li class="catalog-filter-item">
-              <label class="controls" for="pool2">
-                <input class="control-input" type="checkbox" name="pool" id="pool2">
+              <label class="controls" for="wi-fi">
+                <input class="control-input" type="checkbox" name="features" id="wi-fi">
                 Wi-Fi
               </label>
             </li>
           </ul>
         </fieldset>
+        </form>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
         <fieldset class="catalog-filter-group">
           <legend class="catalog-filter-title">Тип Жилья</legend>
           <ul class="catalog-filter-list">
             <li class="catalog-filter-item">
-              <label class="controls" for="housing1">
-                <input class="control-input" type="radio" name="housing" id="housing1" checked>
+              <label class="controls" for="hotel">
+                <input class="control-input" type="radio" name="housing" id="hotel" value="hotel" checked>
                 Гостиница
               </label>
             </li>
             <li class="catalog-filter-item">
-              <label class="controls" for="housing2">
-                <input class="control-input" type="radio" name="housing" id="housing2">
+              <label class="controls" for="motel">
+                <input class="control-input" type="radio" name="housing" id="motel" value="motel">
                 Мотель
               </label>
             </li>
             <li class="catalog-filter-item">
-              <label class="controls" for="housing3">
-                <input class="control-input" type="radio" name="housing" id="housing3">
+              <label class="controls" for="apartments">
+                <input class="control-input" type="radio" name="housing" id="apartments" value="apartments">
                 Апартаменты
               </label>
             </li>
