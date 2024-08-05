@@ -1,6 +1,6 @@
 # Личный проект «Седона»
 
-* Студент: [Анвар Нарзиев](https://up.htmlacademy.ru/htmlcss/39/user/2342585).
+* Студент: [Анвар Нарзиев](https://github.com/narziev-ak/2342585-sedona-2).
 * Наставник: [Дмитрий Осадченко](https://htmlacademy.ru/profile/dimaos).
 * Сайт: [Добавил ссылку на сайт своего проекта Седона-2](https://narziev-ak.github.io/2342585-sedona-2/).
 ---
