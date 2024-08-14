@@ -19,5 +19,7 @@
   "css.lint.unknownVendorSpecificProperties": "warning",
   "css.lint.zeroUnits": "error",
   "html.format.endWithNewline": true,
-  "html.format.indentInnerHtml": true
+  "html.format.indentInnerHtml": true,
+  "liveServer.settings.ChromeDebuggingAttachment": false,
+  "liveServer.settings.CustomBrowser": null
 }

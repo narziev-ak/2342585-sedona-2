@@ -77,6 +77,38 @@ body {
 
 }
 .hero {
-  background-image: url(".../images/index-background.jpg");
 
+  background-image: url("../images/vector-divider.svg"), url("../images/index-background.jpg");
+  background-size: 100% auto, cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
+.advantages-title-size30 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.advantages-subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+.advantages-title-fon {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+.advantages-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+
