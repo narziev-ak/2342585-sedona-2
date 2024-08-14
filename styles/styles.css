@@ -88,6 +88,7 @@ body {
   font-weight: 700;
   line-height: 36px;
   text-transform: uppercase;
+  text-align: center;
   color: #000000;
 }
 .advantages-subtitle {
@@ -111,4 +112,35 @@ body {
   text-align: center;
   color: #000000;
 }
-
+.advantages-description {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+.interested-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+.interested-description {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+.interested-button {
+ font-weight: 700;
+ font-size: 20px;
+ line-height: 36px;
+ text-transform: uppercase;
+ text-align: center;
+ text-decoration: none;
+ background: #756157;
+ border-radius: 4pz;
+ padding: 8px 50px;
+ width: 376px;
+ height: 52px;
+ color: #ffffff;
+}
