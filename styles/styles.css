@@ -48,9 +48,9 @@ body {
   background-color: #f2f2f2;
 }
 .page-header {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 20px;
   text-transform: capitalize;
   color: #000000;
 }
@@ -62,13 +62,21 @@ body {
   color: #000000;
 }
 .navigation-button-link {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
+  line-height: 20px;
   text-align: center;
   text-transform: uppercase;
   background: #756157;
-  color: white;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 8px 50px;
+  width: 160px;
+  height: 36px;
   text-decoration: none;
-  padding-left: 10px;
-  padding-right: 10px;
+
+}
+.hero {
+  background-image: url(".../images/index-background.jpg");
+
 }
