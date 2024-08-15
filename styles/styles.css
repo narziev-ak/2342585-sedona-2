@@ -47,6 +47,7 @@ body {
   color: #333333;
   background-color: #f2f2f2;
 }
+
 .page-header {
   font-size: 16px;
   font-weight: 700;
@@ -143,4 +144,49 @@ body {
  width: 376px;
  height: 52px;
  color: #ffffff;
+}
+.subscribe-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+.subscribe-description {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+.field {
+  font-size: 22px;
+  line-height: 24px;
+  color: #000000;
+  background: #f2f2f2;
+  border-radius: 4px 0 0 4px;
+  padding: 12px 20px;
+  width: 452px;
+  height: 24px;
+}
+.button-subcribe-button {
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+text-transform: uppercase;
+text-align: center;
+color: #ffffff;
+background: #82b3d3;
+border-radius: 0 4px 4px 0;
+padding: 8px 50px;
+width: 232px;
+height: 52px;
+}
+.contacts-phone-descrption {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
 }
