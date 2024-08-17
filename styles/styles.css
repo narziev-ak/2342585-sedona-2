@@ -97,14 +97,6 @@ body {
   line-height: 26px;
   text-align: center;
 }
-.advantages-title-fon {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  text-transform: uppercase;
-  text-align: center;
-  color: #ffffff;
-}
 .advantages-title {
   font-weight: 700;
   font-size: 24px;
@@ -113,10 +105,49 @@ body {
   text-align: center;
   color: #000000;
 }
-.advantages-description {
+.advantages-title-fon {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+.advantages-description-fon {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+  color: #ffffff;
+}
+.advantages-description-lite {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+}
+.title-fon {
+  background: #82b3d3;
+  padding: 103px 85px;
+  width: 400px;
+  height: 385px;
+}
+.advantages-description-lite {
+  padding: 103px 85px;
+  width: 400px;
+  height: 385px;
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-description-medium {
+  padding: 103px 85px;
+  width: 400px;
+  height: 385px;
+  background: rgba(131, 179, 211, 0.2);
+}
+.interested {
+  background: #fff;
+  padding: 96px 304px;
+  background-size: cover;
 }
 .interested-title {
   font-size: 30px;
@@ -145,7 +176,18 @@ body {
  height: 52px;
  color: #ffffff;
 }
-.subscribe-title {
+.subscribe-special {
+  background-image: url("../images/Subscribe.png");
+  background-size: cover;
+  padding: 96px 258px 104px 258px;
+}
+.subscribe-special, .subscribe {
+  background-color: #ffffff;
+  background-size: cover;
+  padding: 96px 258px 104px 258px;
+}
+
+.subscribe-title-special {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -153,23 +195,30 @@ body {
   text-align: center;
   color: #ffffff;
 }
-.subscribe-description {
+.subscribe-title-special, .subscribe-title {
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.subscribe-description-special {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
   color: #ffffff;
 }
 .field {
+  font-family: inherit;
   font-size: 22px;
   line-height: 24px;
   color: #000000;
   background: #f2f2f2;
   border-radius: 4px 0 0 4px;
-  padding: 12px 20px;
-  width: 452px;
-  height: 24px;
+  width: 352px;
+  height: 42px;
 }
 .button-subcribe-button {
+font-family: "PT Sans", sans-serif;
 font-weight: 700;
 font-size: 20px;
 line-height: 36px;
@@ -178,9 +227,8 @@ text-align: center;
 color: #ffffff;
 background: #82b3d3;
 border-radius: 0 4px 4px 0;
-padding: 8px 50px;
 width: 232px;
-height: 52px;
+height: 50px;
 }
 .contacts-phone-descrption {
   font-weight: 400;
