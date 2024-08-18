@@ -364,3 +364,41 @@ height: 50px;
   background: #7db54f;
   border-style: none;
 }
+.card-rating {
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 20px;
+ text-transform: uppercase;
+ text-align: center;
+ color: #333333;
+ border-radius: 4px;
+ width: 140px;
+ height: 37px;
+ background: #ffffff;
+ align-content: center;
+}
+
+.pagination-link-pagination-link-current {
+  border-radius: 4px;
+  width: 60px;
+  height: 60px;
+  background: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+.pagination-link {
+  border-radius: 4px;
+  width: 60px;
+  height: 60px;
+  background: #82b3d3;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
