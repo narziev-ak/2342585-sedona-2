@@ -55,6 +55,7 @@ body {
   text-transform: capitalize;
   color: #000000;
 }
+
 .navigation-link {
   font-size: 20px;
   font-weight: 700;
@@ -305,10 +306,10 @@ height: 50px;
 .catalog-filter-title {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-  text-transform: capitalize;
-  color: #ffffff;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
 }
 .catalog-select {
  border: 2px solid #e5e5e5;
