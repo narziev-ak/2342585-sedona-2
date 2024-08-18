@@ -295,7 +295,6 @@ height: 50px;
   font-weight: 700;
   font-size: 18px;
   color: #000000;
-
 }
 .controls {
   font-size: 18px;
@@ -303,7 +302,7 @@ height: 50px;
   line-height: 23px;
   color: #ffffff;
 }
-.catalog-filter-title {
+.catalog-filter-title-found {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 30px;
@@ -316,7 +315,7 @@ height: 50px;
  border-radius: 4px;
  padding: 14px 20px;
  width: 292px;
- height: 49px;
+ height: 52px;
  font-weight: 400;
  font-size: 18px;
  line-height: 21px;
