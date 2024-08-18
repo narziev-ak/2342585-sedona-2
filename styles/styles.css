@@ -84,6 +84,11 @@ body {
   background-repeat: no-repeat;
   background-position: bottom;
 }
+.hero-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .advantages-title-size30 {
   font-size: 30px;
   font-weight: 700;
