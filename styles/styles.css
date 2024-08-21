@@ -2,7 +2,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/pt-sans-regular.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -10,42 +10,21 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/pt-sans-bold.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
-@font-face {
-  font-family: "PT Sans";
-  font-style: italic;
-  font-weight: 400;
-  src: url("../fonts/pt-sans-italic.woff2") format("woff2");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "PT Sans";
-  font-style: italic;
-  font-weight: 700;
-  src: url("../fonts/pt-sans-bold-italic.woff2") format("woff2");
-  font-display: swap;
-}
-
-/* PT Sans Narrow */
-@font-face {
-  font-family: "PT Sans Narrow";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/pt-sans-narrow-bold.woff2") format("woff2");
-  font-display: swap;
-}
 body {
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
   font-style: normal;
   color: #333333;
-  background-color: #f2f2f2;
+
 }
 
 .page-header {
@@ -79,7 +58,6 @@ body {
 
 }
 .hero {
-
   background-image: url("../images/vector-divider.svg"), url("../images/index-background.jpg");
   background-size: 100% auto, cover;
   background-repeat: no-repeat;
@@ -87,10 +65,12 @@ body {
 }
 .hero-img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
-.advantages-title-size30 {
+li {
+ list-style: none;
+}
+.advantages-title {
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -103,7 +83,7 @@ body {
   line-height: 26px;
   text-align: center;
 }
-.advantages-title {
+.advantages-item-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -111,7 +91,7 @@ body {
   text-align: center;
   color: #000000;
 }
-.advantages-title-fon {
+.advantages-item-title-basic {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -119,37 +99,68 @@ body {
   text-align: center;
   color: #ffffff;
 }
-.advantages-description-fon {
+.advantages-item-description {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
-  color: #ffffff;
 }
-.advantages-description-lite {
-  font-size: 18px;
-  line-height: 21px;
-  text-align: center;
-  color: #000000;
-}
-.title-fon {
+
+.advantages:first-child {
   background: #82b3d3;
-  padding: 103px 85px;
-  width: 400px;
-  height: 385px;
+  color: #ffffff;
 }
-.advantages-description-lite {
-  padding: 103px 85px;
-  width: 400px;
-  height: 385px;
+.advantages:last-child {
+  background: #82b3d3;
+  color: #ffffff;
+}
+.advantages:nth-child(2) {
   background: rgba(131, 179, 211, 0.12);
 }
 
-.advantages-description-medium {
-  padding: 103px 85px;
-  width: 400px;
-  height: 385px;
+.advantages:nth-child(3) {
   background: rgba(131, 179, 211, 0.2);
 }
+.advantages:nth-child(4) {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.features:first-child {
+  background: rgba(131, 179, 211, 0.12);
+}
+.features:last-child {
+  background: rgba(131, 179, 211, 0.12);
+}
+.features-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+.features-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+
+.features-subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+.features-item-description {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+
+
+
 .interested {
   background: #fff;
   padding: 96px 304px;
@@ -267,7 +278,7 @@ height: 50px;
   line-height: 24px;
   text-transform: capitalize;
   color: #ffffff;
-  border:0;
+  border: 0;
 }
 .filter-button {
  background: #82b3d3;
