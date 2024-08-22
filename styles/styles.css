@@ -91,45 +91,31 @@ li {
   text-align: center;
   color: #000000;
 }
-.advantages-item-title-basic {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  text-transform: uppercase;
-  text-align: center;
-  color: #ffffff;
-}
+
 .advantages-item-description {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
 }
 
-.advantages:first-child {
-  background: #82b3d3;
-  color: #ffffff;
-}
-.advantages:last-child {
-  background: #82b3d3;
-  color: #ffffff;
-}
-.advantages:nth-child(2) {
+.advantages-item:nth-child(2n) {
   background: rgba(131, 179, 211, 0.12);
 }
-
-.advantages:nth-child(3) {
+.advantages-item:nth-child(2n+1) {
   background: rgba(131, 179, 211, 0.2);
 }
-.advantages:nth-child(4) {
-  background: rgba(131, 179, 211, 0.12);
+.advantages-item:nth-child(1) {
+  background: #82b3d3;
+  color: #ffffff;
+}
+.advantages-item:nth-child(5) {
+  background: #82b3d3;
+  color: #ffffff;
+}
+.advantages-item-title:nth-child(1) {
+  color: #ffffff;
 }
 
-.features:first-child {
-  background: rgba(131, 179, 211, 0.12);
-}
-.features:last-child {
-  background: rgba(131, 179, 211, 0.12);
-}
 .features-title {
   font-size: 30px;
   font-weight: 700;
@@ -157,8 +143,9 @@ li {
   line-height: 21px;
   text-align: center;
 }
-
-
+.features-item:nth-child(2n+1) {
+  background: rgba(131, 179, 211, 0.12);
+}
 
 
 .interested {
