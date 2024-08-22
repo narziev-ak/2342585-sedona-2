@@ -91,6 +91,14 @@ li {
   text-align: center;
   color: #000000;
 }
+.advantages-item-title-basic {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
 
 .advantages-item-description {
   font-size: 18px;
@@ -112,9 +120,7 @@ li {
   background: #82b3d3;
   color: #ffffff;
 }
-.advantages-item-title:nth-child(1) {
-  color: #ffffff;
-}
+
 
 .features-title {
   font-size: 30px;
@@ -185,7 +191,7 @@ li {
   background-size: cover;
   padding: 96px 258px 104px 258px;
 }
-.subscribe-special, .subscribe {
+.subscribe {
   background-color: #ffffff;
   background-size: cover;
   padding: 96px 258px 104px 258px;
@@ -205,11 +211,17 @@ li {
   text-align: center;
 }
 
-.subscribe-description-special {
+.subscribe-description-special{
   font-size: 22px;
   line-height: 26px;
   text-align: center;
   color: #ffffff;
+}
+.subscribe-description{
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
 }
 .field {
   font-family: inherit;
@@ -233,6 +245,7 @@ background: #82b3d3;
 border-radius: 0 4px 4px 0;
 width: 232px;
 height: 50px;
+border: none;
 }
 .contacts-phone-descrption {
   font-weight: 400;
@@ -242,8 +255,8 @@ height: 50px;
   text-align: center;
   color: #000000;
 }
-.filtr {
-  background: url("../images/filtr.png");
+.filter {
+  background: url("../images/filter.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -378,7 +391,7 @@ height: 50px;
  border-radius: 4px;
  width: 140px;
  height: 37px;
- background: #ffffff;
+ background: #f2f2f2;
  align-content: center;
 }
 
