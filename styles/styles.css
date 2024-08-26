@@ -170,6 +170,7 @@ li {
   align-content: center;
   flex-wrap: wrap;
   flex-direction: column;
+  justify-content: center;
   margin: 0;
   padding: 0 0px;
   width: 400px;
@@ -192,6 +193,7 @@ li {
   text-transform: uppercase;
   text-align: center;
   color: #000000;
+  margin: 69px 247.5px 20px ;
 }
 
 .features-item-title {
@@ -207,6 +209,7 @@ li {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+  margin-bottom: 64px;
 }
 
 .features-item-description {
