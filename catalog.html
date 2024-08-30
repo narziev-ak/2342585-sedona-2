@@ -55,7 +55,8 @@
         </ul>
       </header>
       <section class="filter-content">
-        <h2 class="visually-hidden">... фильтр гостиниц</h2>
+        <!-- временно hidden-->
+        <h2 class="visually-hidden" hidden>... фильтр гостиниц</h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
         <fieldset class="catalog-filter-group">
           <legend class="catalog-filter-title">Инфраструктура</legend>
@@ -109,8 +110,10 @@
           <legend class="catalog-filter-title">Стоимость, ₽</legend>
           <a>от </a><input class="filter-button-price" placeholder="0" type="number" id="number" required>
           <a>до </a><input class="filter-button-price" placeholder="9000" type="number" id="number" required>
+        <div class="filter-button">
           <button class="filter-button" type="submit">Применить</button>
           <button class="filter-button-reset" type="reset">Сбросить</button>
+        </div>
         </fieldset>
       </form>
       </section>
@@ -218,31 +221,34 @@
           <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
           <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label for="subscribe-email"></label>
-            <input class="field" placeholder="Ваш email" type="email" name="subscribe-email" id="subscribe-email"
-              required>
+            <label class="visually-hidden" for "subscribe-email">email<label>
+            <input class="field" placeholder="Ваш email" type="email" name="subscribe-email" id="subscribe-email" required>
             <button class="button-subcribe-button" type="submit">
               Подписаться
             </button>
-            </form>
+          </form>
             </section>
           </section>
-          <section footer>
-            <h2 class="visually-hidden">Социальные сети</h2>
+          <footer class="page-footer">
+            <!-- временно hidden-->
+            <h2 class="visually-hidden" hidden>Социальные сети</h2>
             <ul class="social-list">
               <li class="social-item">
                 <a class="visually-hidden" href="">
-                  <span class="visually-hidden">ВКонтакте</span>
+                  <img src="images/social-vk.png" width="47" height="40" alt="social-vk">
+                <span class="visually-hidden" hidden >ВКонтакте</span>
                 </a>
               </li>
               <li class="social-item">
                 <a class="visually-hidden" href="">
-                  <span class="visually-hidden">Телеграм</span>
+                  <img src="images/social-telegram.png" width="47" height="40" alt="social-telegram">
+                  <span class="visually-hidden" hidden>Телеграм</span>
                 </a>
               </li>
               <li class="social-item">
                 <a class="visually-hidden" href="">
-                  <span class="visually-hidden">YouTube</span>
+                  <img src="images/social-youtube.png" width="47" height="40" alt="social-youtube">
+                  <span class="visually-hidden" hidden>YouTube</span>
                 </a>
               </li>
             </ul>
@@ -252,9 +258,9 @@
             </li>
           </ul>
             <a class="author-logo" href="https://htmlacademy.ru">
-              <img class="academy-logo" src="" alt="Логотип htmlacademy. Переход на сайт HTML Academy">
+              <img class="academy-logo" src="images/logo_htmlacademy.png" alt="Логотип htmlacademy. Переход на сайт HTML Academy">
             </a>
-          </section>
+          </footer>
     </main>
   </body>
 

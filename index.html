@@ -45,8 +45,8 @@
     </nav>
   </header>
 
-  <main class="main-container index">
-     <div class="page-container">
+  <main class="main-container main-index">
+
     <section class="hero">
     <h1 class="visually-hidden">Седона – городок в Аризоне</h1>
     <img class="hero-img" src="images/welcome.svg" width="458" height="352" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!">
@@ -56,16 +56,15 @@
       <h2 class="advantages-title">Седона – небольшой городок в Аризоне, заслуживающий большего</h2>
       <p class="advantages-subtitle">Рассмотрим причины, по которым Седона круче Гранд-Каньон!</p>
 
-      <div class="advantages-list">
+
       <ul class="advantages-list">
 
-
-          <li class="advantages-item">
+          <li class="advantages-item-basic">
            <h3 class="advantages-item-title-basic">Настоящий городок</h3>
-           <p class="advantages-item-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+           <p class="advantages-item-description-basic">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
            <img class="advantages-item-img" src="images/photo-1.jpg" width="800" height="385" alt="Здание с флагом">
           </li>
-
+<div class="advantages-item-list">
         <li class="advantages-item">
           <h3 class="advantages-item-title">Небольшая площадь</h3>
           <p class="advantages-item-description">Все достопримечательности находятся очень близко</p>
@@ -80,15 +79,15 @@
           <h3 class="advantages-item-title">Мало туристов</h3>
           <p class="advantages-item-description">Большинство едет в Гранд Каньон и толпится там</p>
         </li>
-
-        <li class="advantages-item">
+<div>
+        <li class="advantages-item-basic">
           <h3 class="advantages-item-title-basic">Там есть мост дьявола</h3>
-          <p class="advantages-item-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+          <p class="advantages-item-description-basic">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           <img class="advantages-item-img" src="images/photo-2.jpg" width="800" height="385" alt="Каменный мост в горах">
         </li>
 
       </ul>
-      </div>
+
 </section>
     <section class="features">
       <h2 class="features-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
@@ -96,12 +95,14 @@
       <ul class="features-list">
 
         <li class="features-item">
+          <img class="features-icon"  src="images/lodge.svg" alt="Домик">
           <h3 class="features-item-title">Жильё</h3>
           <p class="features-item-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
         </li>
 
 
         <li class="features-item">
+          <img class="features-icon" src="images/food.svg" alt="Еда">
           <h3 class="features-item-title">Еда</h3>
           <p class="features-item-description">Всегда заказывайте
             топовый фирменный бургер, вы не разочаруетесь!</p>
@@ -109,6 +110,7 @@
 
 
         <li class="features-item">
+          <img class="features-icon" src="images/souvenir.svg" alt="Сувенир">
           <h3 class="features-item-title">Сувениры</h3>
           <p class="features-item-description">Не только китайского,
             но и настоящего местного производства!</p>
@@ -126,29 +128,34 @@
       <h2 class="subscribe-title-special">Подпишитесь на рассылку</h2>
       <p class="subscribe-description-special">Только полезная информация и никакого спама, честное бойскаутское!</p>
       <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-        <label class="visually-hidden" for "subscribe-email">email<label>
+       <label class="visually-hidden" for "subscribe-email" >email<label>
         <input class="field" placeholder="Ваш email" type="email" name="subscribe-email" id="subscribe-email" required>
         <button class="button-subcribe-button" type="submit">
           Подписаться
         </button>
       </form>
     </section>
-    <section footer>
-      <h2 class="visually-hidden">Социальные сети</h2>
+
+    <footer class="page-footer">
+      <!-- временно hidden-->
+      <h2 class="visually-hidden" hidden>Социальные сети</h2>
       <ul class="social-list">
         <li class="social-item">
           <a class="visually-hidden" href="">
-            <span class="visually-hidden">ВКонтакте</span>
+            <img src="images/social-vk.png" width="47" height="40" alt="social-vk">
+          <span class="visually-hidden" hidden >ВКонтакте</span>
           </a>
         </li>
         <li class="social-item">
           <a class="visually-hidden" href="">
-            <span class="visually-hidden">Телеграм</span>
+            <img src="images/social-telegram.png" width="47" height="40" alt="social-telegram">
+            <span class="visually-hidden" hidden>Телеграм</span>
           </a>
         </li>
         <li class="social-item">
           <a class="visually-hidden" href="">
-            <span class="visually-hidden">YouTube</span>
+            <img src="images/social-youtube.png" width="47" height="40" alt="social-youtube">
+            <span class="visually-hidden" hidden>YouTube</span>
           </a>
         </li>
       </ul>
@@ -158,9 +165,9 @@
       </li>
     </ul>
       <a class="author-logo" href="https://htmlacademy.ru">
-        <img class="academy-logo" src="" alt="Логотип htmlacademy. Переход на сайт HTML Academy">
+        <img class="academy-logo" src="images/logo_htmlacademy.png" alt="Логотип htmlacademy. Переход на сайт HTML Academy">
       </a>
-    </section>
+    </footer>
     </div>
   </main>
 </body>
