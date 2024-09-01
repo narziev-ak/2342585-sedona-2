@@ -112,14 +112,15 @@ li {
 
 .advantages-item-list {
   display: flex;
-
   width: 1200px;
   flex-wrap: wrap;
+
 }
 
 .advantages-item-basic {
   display: flex;
   flex-wrap: nowrap;
+
   padding-top: 0;
 
 
@@ -138,6 +139,9 @@ li {
 
 .advantages-item {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   margin: 0;
   width: 400px;
   height: 385px;
@@ -167,7 +171,7 @@ li {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-  text-align: center;
+
   color: #000000;
 }
 
@@ -420,7 +424,7 @@ li {
 .filter-button {
   display: flex;
   flex-wrap: wrap;
-  
+
   background: #82b3d3;
   color: #ffffff;
   border-radius: 4px;
