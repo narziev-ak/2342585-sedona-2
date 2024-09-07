@@ -111,12 +111,19 @@ body {
   color: #000000;
   padding: 0;
   margin: 0;
+  margin-bottom: 62px;
   text-align: center;
+}
+
+.advantages-item-extended .advantages-item-title {
+  color: #ffffff;
 }
 
 .advantages-list {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 
@@ -126,6 +133,10 @@ body {
   list-style: none;
   min-height: 385px;
   width: 400px;
+}
+
+.advantages-item-text {
+  padding: 70px 85px;
 }
 
 .advantages-item-description {
@@ -143,7 +154,14 @@ body {
 .advantages-item:nth-child(2n+1) {
   background: rgba(131, 179, 211, 0.2);
 }
-.advantages-item.advantages-item-extended:nth-child(2n+1) {
+
+.advantages-item-extended {
+  width: 1200px;
+  color: #ffffff;
+}
+
+.advantages-item-extended:nth-child(2n+1),
+.advantages-item-extended:nth-child(2n) {
   width: 1200px;
   background-color: #82b3d3;
   color: #ffffff;
