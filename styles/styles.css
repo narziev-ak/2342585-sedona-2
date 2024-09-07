@@ -43,12 +43,10 @@ body {
 }
 
 .navigation-list {
-
 }
 
 .navigation-list.navigation-user {
   gap: 20px;
-
 }
 
 .navigation-link {
@@ -72,7 +70,6 @@ body {
   width: 160px;
   height: 36px;
   text-decoration: none;
-
 }
 
 .hero {
@@ -80,7 +77,6 @@ body {
   background-size: 100% auto, cover;
   background-repeat: no-repeat;
   background-position: bottom;
-
 }
 
 .hero-img {
@@ -121,35 +117,15 @@ body {
 .advantages-list {
   margin: 0;
   padding: 0;
- width: 1200px;
- min-height: 385px;
-
 }
 
-/*.advantages-item-extended {
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  width: 1200px;
-  min-height: 385px;
 
-}*/
-
-
-.advantages-item-text {
-
-  color: #ffffff;
-
-
-}
   .advantages-item {
   display: flex;
+  align-items: center;
   list-style: none;
   min-height: 385px;
   width: 400px;
-
-
 }
 
 .advantages-item-description {
@@ -168,16 +144,13 @@ body {
   background: rgba(131, 179, 211, 0.2);
 }
 .advantages-item.advantages-item-extended:nth-child(2n+1) {
-  display: flex;
   width: 1200px;
-  align-items: center;
   background-color: #82b3d3;
-
+  color: #ffffff;
 }
 
 
 .features-item {
-
   width: 400px;
   min-height: 385px;
 }
@@ -193,7 +166,6 @@ body {
   padding-top: 49px;
   display: block;
   margin: auto;
-
 }
 
 .features-title {
@@ -207,14 +179,12 @@ body {
 }
 
 .features-item-title {
-
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
   text-align: center;
   color: #000000;
-
 }
 
 .features-subtitle {
@@ -228,7 +198,6 @@ body {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
-
   padding-left: 70px;
   padding-right: 70px;
 }
@@ -275,7 +244,6 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .subscribe-special {
@@ -332,7 +300,6 @@ body {
   width: 352px;
   height: 42px;
   border: none;
-
 }
 
 .button-subcribe-button {
@@ -371,7 +338,6 @@ body {
 .catalog-filter {
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .inner-title {
@@ -400,7 +366,6 @@ body {
 .filter-button {
   display: flex;
   flex-wrap: wrap;
-
   background: #82b3d3;
   color: #ffffff;
   border-radius: 4px;
@@ -470,6 +435,7 @@ body {
  width: 1200px;
  flex-wrap: wrap;
  justify-content: space-between;
+ list-style: none;
 }
 
 .catalog-card-link {
@@ -572,4 +538,5 @@ body {
 
 .social-list {
   display: flex;
+  list-style: none;
 }
