@@ -55,8 +55,7 @@
         </ul>
       </header>
       <section class="filter-content">
-        <!-- временно hidden-->
-        <h2 class="visually-hidden" hidden>... фильтр гостиниц</h2>
+        <h2 class="visually-hidden">... фильтр гостиниц</h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
         <fieldset class="catalog-filter-group">
           <legend class="catalog-filter-title">Инфраструктура</legend>
@@ -120,6 +119,7 @@
       </div>
       </section>
       <section class="catalog">
+      <div class="found-catalog">
         <h2 class="catalog-filter-title-found">Найдено гостиниц: 38</h2>
         <select class="catalog-select" aria-label="Сортировка">
           <option value="popular">Сначала дешевые</option>
@@ -131,18 +131,22 @@
         <a class="catalog-view catalog-view-selected" href="#">
           <span class="visually-hidden"> Плитками</span>
         </a>
+        <img src="images/spisok-plitka.png" width="48" height="48" alt="Каталог-плитками">
         </li>
         <li class="catalog-item">
         <a class="catalog-view" href="#">
           <span class="visually-hidden"> По одной</span>
         </a>
+        <img src="images/spisok-odna.png" width="48" height="48" alt="Каталог-по одной">
         </li>
         <li class="catalog-item">
         <a class="catalog-view" href="#">
           <span class="visually-hidden"> Списком</span>
         </a>
+        <img src="images/spisok-spiskom.png" width="48" height="48" alt="Каталог-списком">
         </li>
         </ul>
+      </div>
         <ul class="catalog-list">
           <li class="catalog-item">
           <a class="catalog-card-link" href="#" tabindex="-1">
@@ -221,7 +225,7 @@
           <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
           <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label class="visually-hidden" for "subscribe-email">email<label>
+            <label class="visually-hidden" for "subscribe-email">email</label>
               <div class="button-subcribe">
             <input class="field" placeholder="Ваш email" type="email" name="subscribe-email" id="subscribe-email" required>
             <button class="button-subcribe-button" type="submit">
@@ -230,28 +234,28 @@
             </div>
           </form>
             </section>
-          </section>
+
           <footer class="page-footer">
-            <!-- временно hidden-->
-            <h2 class="visually-hidden" hidden>Социальные сети</h2>
+
+            <h2 class="visually-hidden">Социальные сети</h2>
             <ul class="social-list">
               <li class="social-item">
                 <a class="visually-hidden" href="">
-                  <img src="images/social-vk.png" width="47" height="40" alt="social-vk">
-                <span class="visually-hidden" hidden >ВКонтакте</span>
+                <span class="visually-hidden">ВКонтакте</span>
                 </a>
+                <img src="images/social-vk.png" width="47" height="40" alt="social-vk">
               </li>
               <li class="social-item">
                 <a class="visually-hidden" href="">
-                  <img src="images/social-telegram.png" width="47" height="40" alt="social-telegram">
-                  <span class="visually-hidden" hidden>Телеграм</span>
+                  <span class="visually-hidden">Телеграм</span>
                 </a>
+                <img src="images/social-telegram.png" width="47" height="40" alt="social-telegram">
               </li>
               <li class="social-item">
                 <a class="visually-hidden" href="">
-                  <img src="images/social-youtube.png" width="47" height="40" alt="social-youtube">
-                  <span class="visually-hidden" hidden>YouTube</span>
+                  <span class="visually-hidden">YouTube</span>
                 </a>
+                <img src="images/social-youtube.png" width="47" height="40" alt="social-youtube">
               </li>
             </ul>
             <ul class="contacts-phone-list">
