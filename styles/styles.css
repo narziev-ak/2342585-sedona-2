@@ -403,6 +403,8 @@ body {
 
 .catalog-filter-list {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .inner-title {
@@ -414,11 +416,23 @@ body {
   margin-bottom: 8px;
 }
 
+.breadcrumbs-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+
+}
+
 .breadcrumbs-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
   color: #ffffff;
+  margin-right: 10px;
+  text-decoration: none;
 }
 
 .catalog-filter-group {
@@ -428,6 +442,24 @@ body {
   text-transform: capitalize;
   color: #ffffff;
   border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-filter-title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+  margin-right: 70px;
+}
+
+.catalog-filter-item {
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+  margin-bottom: 18px;
+
 }
 
 .filter-button {
