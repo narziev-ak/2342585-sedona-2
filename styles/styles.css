@@ -383,7 +383,7 @@ body {
 }
 
 .contacts-phone-list {
-  list-style-type: ;: none;
+  list-style-type: none;
 }
 
 .filter {
@@ -405,6 +405,7 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  margin-bottom: 73px;
 }
 
 .inner-title {
@@ -455,7 +456,6 @@ body {
 
 .catalog-filter-item {
   display: flex;
-
   margin: 0;
   padding: 0;
   margin-bottom: 16px;
@@ -467,15 +467,18 @@ body {
 }
 
 .filter-button {
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
+  flex-direction: column ;
   background: #82b3d3;
   color: #ffffff;
   border-radius: 4px;
-  padding: 8px 50px;
+  align-items: center;
+
+
   width: 191px;
   height: 36px;
   text-transform: uppercase;
+
   border: none;
   font-size: 16px;
   font-weight: 700;
@@ -483,7 +486,7 @@ body {
 }
 
 .filter-button-reset {
-  display: flex;
+  display: block;
   background: none;
   color: #ffffff;
   border: 0;
@@ -640,18 +643,24 @@ body {
 
 .pagination-item:not(:last-child) {
   margin-right: 8px;
+  align-items: center;
+  align-content: center;
+
+
 }
 
 .pagination-link-pagination-link-current {
+  display: block;
   border-radius: 4px;
   width: 60px;
   height: 60px;
-  background: #ffffff;
+  background: #f2f2f2;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
   text-transform: uppercase;
   text-align: center;
+  align-content: center;
   color: #000000;
 }
 
@@ -666,9 +675,10 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   text-align: center;
+  align-content: center;
   color: #ffffff;
-
 }
+
 
 
 .page-footer {
