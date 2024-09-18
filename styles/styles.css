@@ -384,6 +384,12 @@ body {
 
 .contacts-phone-list {
   list-style-type: none;
+  padding-left: 0;
+}
+
+.author-logo {
+  margin-top: 8.5px;
+  margin-bottom: 8.5px;
 }
 
 .filter {
@@ -638,15 +644,12 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
-
 }
 
 .pagination-item:not(:last-child) {
   margin-right: 8px;
   align-items: center;
   align-content: center;
-
-
 }
 
 .pagination-link-pagination-link-current {
@@ -679,15 +682,23 @@ body {
   color: #ffffff;
 }
 
-
-
 .page-footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .social-list {
   display: flex;
   list-style-type: none;
+  padding-left: 0px;
+}
+
+.social-item {
+  padding: 0px 10px;
+  width: 27px;
+  height: 40px;
+  align-content: center;
+  text-align: center;
 }
