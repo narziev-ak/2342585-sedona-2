@@ -520,9 +520,8 @@ body {
 }
 
 .catalog {
-
   /*margin: 0;
-  /*padding: 0;*/
+  padding: 0;*/
 }
 
 .found-catalog {
@@ -594,9 +593,9 @@ body {
 
 .catalog-item {
   display: grid;
-  grid-template-columns: repeat(2, 160px);
+  grid-template-columns: repeat(2, 140px);
   gap: 20px;
-  
+
   padding: 20px;
   border: 1px solid #e6e6e6;
   border-radius: 4px;}
@@ -612,7 +611,7 @@ body {
   color: #ffffff;
   border-radius: 4px;
   padding: 8px;
-  width: 140px;
+  width: 125px;
   height: 20px;
   background: #756157;
   text-decoration: none;
@@ -715,7 +714,7 @@ body {
 .social-list {
   display: flex;
   list-style-type: none;
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 .social-item {
